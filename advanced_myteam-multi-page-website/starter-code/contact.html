@@ -5,45 +5,91 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="contact.css">
   <title>Frontend Mentor | myteam website challenge - Contact</title>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Livvic:wght@600;700&display=swap");
+  </style>
 </head>
 <body>
+  <header id="my">
+      
+    <nav>
+      <img src="/starter-code/assets/logo.svg" alt="logo">
+      <div id="menuToggle">
 
-  home
-  about
+        <input type="checkbox" />
+        
+        <span></span>
+        <span></span>
+        <span></span>
+    
+        <ul id="menu">
+          <a href="index.html"><li>Home</li></a>
+          <a href="about.html"><li>About</li></a>
+          <a href="contact.html" class="contact">contact us</a>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section>
+      <div>
+        <h1>Contact <br> <span style="color: #f67e7e;">Ask us about</span></h1>
 
-  contact us
+        <ul>
+          <li><img src="/starter-code/assets/icon-person.svg" alt="logo">The quality of our talent network</li>
+          <li><img src="/starter-code/assets/icon-cog.svg" alt="logo">Usage & implementation of our software</li>
+          <li><img src="/starter-code/assets/icon-chart.svg" alt="logo">How we help drive innovation</li>
+        </ul>
+      </div>
 
+      <form action="">
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email Address">
+        <input type="text" placeholder="Company Name">
+        <input type="text" placeholder="Title">
+        <textarea name="" id="" cols="30" rows="3">Message</textarea>
+        <button type="submit">submit</button>
+      </form>
 
+    </section>
+  </main>
+  <footer>
+    <section>
+      <h2>myteam</h2>
 
-  Contact
+      <ul id="first_ul_foot">
+        <li><a href="">home</a></li>
+        <li><a href="">about</a></li>
+      </ul>
 
-  Ask us about
+      <div>
+        <p>987 Hillcrest Lane</p>
+        <p>Irvine, CA</p>
+        <p>California 92714</p>
+        <p>Call Us : 949-833-7432</p>
+      </div>
 
-  The quality of our talent network
-  Usage & implementation of our software
-  How we help drive innovation
-
-  Name
-  Email Address
-  Company Name
-  Title
-  Message
-
-  submit
-
-
-
-  home
-  about
-
-  987  Hillcrest Lane
-  Irvine, CA
-  California 92714
-  Call Us : 949-833-7432
-
-  Copyright 2020. All Rights Reserved
+      <ul id="scd_ul_foot">
+        <li>
+          <img src="/starter-code/assets/icon-facebook.svg" alt="facebook" />
+        </li>
+        <li>
+          <img
+            src="/starter-code/assets/icon-pinterest.svg"
+            alt="pinterest"
+          />
+        </li>
+        <li>
+          <img src="/starter-code/assets/icon-twitter.svg" alt="twitter" />
+        </li>
+      </ul>
+      <small> Copyright 2020. All Rights Reserved</small>
+    </section>
+  </footer>
+  
   
 </body>
 </html>
